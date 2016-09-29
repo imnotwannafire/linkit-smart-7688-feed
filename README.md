@@ -31,10 +31,10 @@ In the Ubuntu system, open the *Terminal* application and type the following com
     $ cp feeds.conf.default feeds.conf
     ```
     
-4. Add the LinkIt Smart 7688 feed:
+4. Add the LinkIt Smart 7688 feed (support mt_wifi_elian.ko_3.18.36x):
     
     ```
-    $ echo src-git linkit https://github.com/MediaTek-Labs/linkit-smart-7688-feed.git >> feeds.conf
+    $ echo src-git linkit https://github.com/NuxNuxLi/linkit-smart-EK-7688AMx-feed.git >> feeds.conf   
     ```
 5. Update the feed information of all available packages for building the firmware:
     
