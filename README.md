@@ -1,3 +1,49 @@
+# How to use elian with aes? (under xxx_elianaes.ko_xxx driver file name)
+1. Set aes 128 encryption first. As below, "1234567812345678" just is aes.
+    ```
+    iwpriv apcli0 elian aes=1234567812345678 
+    ```
+
+2. start it in 2.4GHz
+    ```
+    iwpriv apcli0 elian start
+    ```
+3. stop it
+    ```
+    iwpriv apcli0 elian stop
+    ```
+
+4. get result 
+    ```
+    iwpriv apcli0 elian result
+    ```
+
+5. clear result and try to start/parse the data again
+    ```
+    iwpriv apcli0 elian clear
+    ```
+
+# How to use elian? (under xxx_elianxxx.ko_xxx driver file name) 
+1. start it in 2.4GHz
+    ```
+    iwpriv apcli0 elian start
+    ```
+
+2. stop it
+    ```
+    iwpriv apcli0 elian stop
+    ```
+
+3. get result 
+    ```
+    iwpriv apcli0 elian result
+    ```
+
+4. clear result and try to start/parse the data again
+    ```
+    iwpriv apcli0 elian clear
+    ```
+
 # linkit-smart-feed
 This feeds holds the SDK wifi driver and the config/meta package for the LinkIt Smart 7688 (Duo)
 
